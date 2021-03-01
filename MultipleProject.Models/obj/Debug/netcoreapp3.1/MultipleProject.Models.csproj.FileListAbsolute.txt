@@ -1,0 +1,8 @@
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\bin\Debug\netcoreapp3.1\MultipleProject.Models.deps.json
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\bin\Debug\netcoreapp3.1\MultipleProject.Models.dll
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\bin\Debug\netcoreapp3.1\MultipleProject.Models.pdb
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\obj\Debug\netcoreapp3.1\MultipleProject.Models.csprojAssemblyReference.cache
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\obj\Debug\netcoreapp3.1\MultipleProject.Models.AssemblyInfoInputs.cache
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\obj\Debug\netcoreapp3.1\MultipleProject.Models.AssemblyInfo.cs
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\obj\Debug\netcoreapp3.1\MultipleProject.Models.dll
+C:\Users\dev\Source\Repos\DemoLab-Scrum\MultipleProject.Models\obj\Debug\netcoreapp3.1\MultipleProject.Models.pdb

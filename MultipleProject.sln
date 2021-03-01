@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProject.API", "MultipleProject.API\MultipleProject.API.csproj", "{39AB5582-3EF5-4335-B693-3DDB0F52DDEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProject.Web", "MultipleProject.Web\MultipleProject.Web.csproj", "{F6A97DD6-E842-43AE-B528-2FBABA163BB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProject.Models", "MultipleProject.Models\MultipleProject.Models.csproj", "{F7A1CDF4-8A47-4F6B-BFBD-7122550F2AF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProject.Libraries", "MultipleProject.Libraries\MultipleProject.Libraries.csproj", "{5EE1AE82-0F8E-45A9-A9C9-0B8125D2A6E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLab-Scrum.UnitTest", "DemoLab-Scrum.UnitTest\DemoLab-Scrum.UnitTest.csproj", "{AB13D289-B87A-422F-B278-53D6BC3137E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoFiles", "DemoFiles", "{C6425E62-86B6-4253-BBFE-90FA9285B41A}"
+	ProjectSection(SolutionItems) = preProject
+		Command azure.txt = Command azure.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSC", "DSC", "{C28C22C8-E314-4FF1-94B7-07EBFE6C3427}"
+	ProjectSection(SolutionItems) = preProject
+		WebRole.ps1 = WebRole.ps1
+		WebRoleParams.psd1 = WebRoleParams.psd1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSE", "CSE", "{ED5EE0A9-ABD2-4334-9131-399F0AD489AC}"
+	ProjectSection(SolutionItems) = preProject
+		CSE-Install-IIS.ps1 = CSE-Install-IIS.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VM", "VM", "{0E177149-3FCC-46B0-83C2-3B19F49C1A0E}"
+	ProjectSection(SolutionItems) = preProject
+		ARM-VM-Param.json = ARM-VM-Param.json
+		ARM-VM.json = ARM-VM.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ARMCSE", "ARMCSE", "{1AABB052-C2A7-4164-8C9E-6E2B5FBD15BF}"
+	ProjectSection(SolutionItems) = preProject
+		Install.ps1 = Install.ps1
+		vmMain.json = vmMain.json
+		vmParams.json = vmParams.json
+		vmParamsVault.json = vmParamsVault.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39AB5582-3EF5-4335-B693-3DDB0F52DDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AB5582-3EF5-4335-B693-3DDB0F52DDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AB5582-3EF5-4335-B693-3DDB0F52DDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AB5582-3EF5-4335-B693-3DDB0F52DDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A97DD6-E842-43AE-B528-2FBABA163BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A97DD6-E842-43AE-B528-2FBABA163BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A97DD6-E842-43AE-B528-2FBABA163BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A97DD6-E842-43AE-B528-2FBABA163BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A1CDF4-8A47-4F6B-BFBD-7122550F2AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A1CDF4-8A47-4F6B-BFBD-7122550F2AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A1CDF4-8A47-4F6B-BFBD-7122550F2AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A1CDF4-8A47-4F6B-BFBD-7122550F2AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE1AE82-0F8E-45A9-A9C9-0B8125D2A6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE1AE82-0F8E-45A9-A9C9-0B8125D2A6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE1AE82-0F8E-45A9-A9C9-0B8125D2A6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE1AE82-0F8E-45A9-A9C9-0B8125D2A6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB13D289-B87A-422F-B278-53D6BC3137E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB13D289-B87A-422F-B278-53D6BC3137E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB13D289-B87A-422F-B278-53D6BC3137E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB13D289-B87A-422F-B278-53D6BC3137E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C28C22C8-E314-4FF1-94B7-07EBFE6C3427} = {C6425E62-86B6-4253-BBFE-90FA9285B41A}
+		{ED5EE0A9-ABD2-4334-9131-399F0AD489AC} = {C6425E62-86B6-4253-BBFE-90FA9285B41A}
+		{0E177149-3FCC-46B0-83C2-3B19F49C1A0E} = {C6425E62-86B6-4253-BBFE-90FA9285B41A}
+		{1AABB052-C2A7-4164-8C9E-6E2B5FBD15BF} = {C6425E62-86B6-4253-BBFE-90FA9285B41A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20D67D09-243C-451A-A061-477E4F3B71A0}
+	EndGlobalSection
+EndGlobal
